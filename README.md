@@ -44,3 +44,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Instalação do Flow
+npm install --save-dev flow-bin
+
+## Inclua o comando "flow" : "flow" nos scripts do "package.json"
+## Crie o arquivo de configuração ".flowconfig" executando o comando:
+npm run flow init
+
+## Adicione a notação "// @flow" no início dos arquivos que quer que o Flow analise
+## Execute o Flow com o comando:
+npm run flow
